@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DJ Democracy</string>
+    <string name="password">Password: </string>
+    <string name="secret">Secret: </string>
+    <string name="user">DJ Name: </string>
+    <string name="submit">Enter!</string>
+    <string name="create">Join!</string>
+    <string name="artists">Artists</string>
+    <string name="chart">Chart</string>
+    <string name="search">Search</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_home">Home</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_artist_list">ArtistList</string>
+    <string name="title_activity_songs">Songs</string>
+    <string name="title_activity_vote">Vote</string>
+    <string name="loading">Please Wait While Vote Is Cast...</string>
+    <string name="ftw">Vote Submitted</string>
+    <string name="ftl">Vote Not Submitted</string>
+    <string name="ftl2">You need to wait for a song to play</string>
+    <string name="title_activity_create_acct">CreateAcct</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_chart">Chart</string>
+
+</resources>

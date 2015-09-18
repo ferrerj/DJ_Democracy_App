@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.djdemocracy.CreateAcct" >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true" >
+        <RelativeLayout
+            android:id="@+id/create_fullscreen_control"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent" >
+				 <ImageView 
+			    android:id="@+id/logo"
+			    android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+			    android:src="@drawable/logo"    
+			    />
+			    
+				<TextView
+				android:id="@+id/first"
+				android:labelFor="@+id/user"
+				android:text="@string/user"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/logo" 
+				/>
+			     <EditText
+			    android:id="@+id/user"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:inputType="text"
+			    android:layout_below="@id/first" 
+			    />
+			     
+				<TextView
+				android:id="@+id/second"
+				android:labelFor="@+id/password"
+				android:text="@string/password"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/user"
+				/>
+			    <EditText
+			    android:id="@+id/password"
+			    android:imeActionLabel="@string/password"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:inputType="textPassword" 
+			    android:layout_below="@id/second"/>
+			    
+			   <TextView
+				android:id="@+id/third"
+				android:labelFor="@+id/secret"
+				android:text="@string/secret"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_below="@id/password"
+				/>
+			    
+			    <EditText
+			    android:id="@+id/secret"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:inputType="text" 
+			    android:layout_below="@id/third"/>
+			    
+			    <Button
+			     android:id="@+id/submit"
+			     android:layout_height="wrap_content"
+			     android:layout_width="wrap_content"
+			     android:text="@string/submit"
+			     android:layout_below="@id/secret"
+			     android:layout_centerHorizontal="true"
+			     android:onClick="register"
+			     />
+			</RelativeLayout>
+		</FrameLayout>
+</FrameLayout>
